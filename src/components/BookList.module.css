@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.books {
+    width: 65%;
+}
+
+.likes {
+    background-color: #6552f4;
+    height: fit-content;
+    /* min-height: 100px; */
+    padding: 10px;
+    margin: 12px;
+    border-radius: 10px;
+    width: 30%;
+}
+.likes h5 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 10px 8px;
+}
+
+@media (max-width: 720px) {
+    .container {
+        display: block;
+    }
+    .books {
+        width: 100%;
+    }
+    .likes {
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+}

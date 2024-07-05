@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+.header a {
+    text-decoration: none;
+    color: #6552f4;
+}
+
+.footer {
+    height: 70px;
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(50, 50, 50);
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 720px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+}

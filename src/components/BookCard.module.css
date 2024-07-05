@@ -1,0 +1,38 @@
+.container {
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    margin: 12px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.container img {
+    margin-right: 25px;
+    border-radius: 10px;
+    height: 115px;
+}
+.container button {
+    height: fit-content;
+    background: none;
+    border: none;
+    transition: .1s all ease-in-out;
+}
+.container button:hover {
+    transform: scale(1.2);
+}
+
+.info {
+    width: 100%;
+}
+.info p {
+    margin: 10px 5px;
+}
+.info p:first-child {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.info div span {
+    color: rgb(134, 134, 134);
+    margin: 5px 20px 10px 5px;
+}
